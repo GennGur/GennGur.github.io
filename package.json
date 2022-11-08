@@ -1,0 +1,21 @@
+{
+  "name": "bases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/main.scss:./public/style.css",
+    "prefix": "postcss ./public/style.css --use autoprefixer -d ./public/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GennGur/livrable_3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/GennGur/livrable_3.git"
+  },
+  "homepage": ""
+}
