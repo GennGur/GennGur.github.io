@@ -1,0 +1,22 @@
+.position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: 	#F0F0F0 ;
+    width:auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px -2px 4px;
+    color: 	#444343;
+    font-size: 1em;
+    font-weight: bold;
+    i{
+        margin-right: 2%;
+        font-size: 1.1em;
+    }
+    p{
+        margin-right: 8%;
+        @media (min-width:565px) {
+            margin-right: 0;
+        }
+    }
+    
+}

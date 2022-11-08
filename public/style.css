@@ -1,6 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap");
 body {
   font-family: "roboto", serif;
+  box-sizing: border-box;
+}
+
+.position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F0F0F0;
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px -2px 4px;
+  color: #444343;
+  font-size: 1em;
+  font-weight: bold;
+}
+.position i {
+  margin-right: 2%;
+  font-size: 1.1em;
+}
+.position p {
+  margin-right: 8%;
+}
+@media (min-width: 565px) {
+  .position p {
+    margin-right: 0;
+  }
 }
 
 header {
@@ -17,22 +42,6 @@ header h1 {
   text-align: center;
   font-size: 2em;
   margin: 0;
-}
-
-.position {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #F0F0F0;
-  width: auto;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px -1px 6px;
-  color: #444343;
-  font-size: 1em;
-  font-weight: bold;
-}
-.position i {
-  margin-right: 2%;
-  font-size: 1.1em;
 }
 
 /*# sourceMappingURL=style.css.map */

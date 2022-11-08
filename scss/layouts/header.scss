@@ -1,0 +1,16 @@
+header{
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1%;
+    h1{
+        font-family: $font-logo;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+        margin: 0;
+        
+    }
+}

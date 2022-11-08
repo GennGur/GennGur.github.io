@@ -1,0 +1,14 @@
+@mixin typo-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+@mixin typo-text {
+    font-size: 1em;
+}
+@mixin typo-text-bold {
+    font-size: 1em;
+    font-weight: bold;
+}
+@mixin typo-icon {
+    font-size: 1.1em;
+}
