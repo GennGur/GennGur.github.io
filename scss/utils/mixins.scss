@@ -12,3 +12,11 @@
 @mixin typo-icon {
     font-size: 1.1em;
 }
+@mixin typo-imp-text {
+    font-size: 1.3em;
+    color: #6f6f6f;
+}
+@mixin typo-btn {
+    font-size: 1.3em;
+    color: #FFFFFF;
+}
