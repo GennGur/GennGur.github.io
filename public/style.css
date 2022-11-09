@@ -4,6 +4,11 @@ body {
   box-sizing: border-box;
 }
 
+html {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .btn {
   font-size: 1.3em;
   color: #FFFFFF;
@@ -21,8 +26,15 @@ body {
   align-self: center;
 }
 .btn:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background: linear-gradient(to bottom left, #ff79DA, #9356DC);
+  /*box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background:linear-gradient(to bottom left, $secondary-color, $primary-color);*/
+}
+.btn:hover::after {
+  opacity: 1;
+}
+.btn::after {
+  content: "";
+  background: linear-gradient(to bottom right, #ff93e1);
 }
 
 .position {
