@@ -10,31 +10,43 @@ html {
 }
 
 .btn {
-  font-size: 1.3em;
-  color: #FFFFFF;
-  cursor: pointer;
-  padding: 1.9vh;
-  border-radius: 50px;
-  border: none;
+  justify-content: center;
+  width: 70%;
+  max-width: 30vh;
+  align-self: center;
+  display: flex;
+}
+.btn .btn-nav {
   background: linear-gradient(to bottom right, #ff79DA, #9356DC);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 1;
-  justify-content: center;
-  transition: 150ms;
-  width: 60%;
-  max-width: 30vh;
-  align-self: center;
+  border: none;
+  padding: 1.9vh 2.5vh;
+  border-radius: 50px;
+  font-size: 1.1em;
+  color: #FFFFFF;
+  cursor: pointer;
+  position: relative;
 }
-.btn:hover {
-  /*box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background:linear-gradient(to bottom left, $secondary-color, $primary-color);*/
+.btn .btn-nav:hover {
+  border-radius: 50px;
 }
-.btn:hover::after {
+.btn .btn-nav:hover::after {
   opacity: 1;
 }
-.btn::after {
+.btn .btn-nav::after {
   content: "";
-  background: linear-gradient(to bottom right, #ff93e1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to bottom left, #ff88de, #9b63df);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 250ms ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 50px;
 }
 
 .position {
