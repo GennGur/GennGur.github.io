@@ -33,7 +33,7 @@
             background: linear-gradient(to bottom left, $secondary-color-light,$primary-color-light);
             opacity: 0;
             z-index: -1;
-            transition: opacity 250ms ease-in-out;
+            transition: opacity 300ms ease-in-out;
             box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
             border-radius: 50px;
         }

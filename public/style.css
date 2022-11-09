@@ -6,6 +6,7 @@ body {
 
 html {
   max-width: 1200px;
+  min-width: 360px;
   margin: auto;
 }
 
@@ -41,10 +42,10 @@ html {
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to bottom left, #ff88de, #9b63df);
+  background: linear-gradient(to bottom left, #ff93e1, #a16be0);
   opacity: 0;
   z-index: -1;
-  transition: opacity 250ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   border-radius: 50px;
 }
