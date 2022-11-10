@@ -109,7 +109,8 @@ html {
   padding-left: 5%;
 }
 .function .function-list {
-  font-size: 1em;
+  font-size: 1.1em;
+  font-weight: bold;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -134,7 +135,7 @@ html {
   background-color: #F0F0F0;
   border-radius: 20px;
   margin-bottom: 8%;
-  padding: 15px;
+  padding: 13px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition: 250ms;
 }
@@ -152,7 +153,12 @@ html {
 .function .function-list .puce .fa-solid, .function .function-list .puce .fa-sharp {
   font-size: 1.3em;
   color: #6f6f6f;
-  margin-right: 20px;
+  margin-right: 35px;
+}
+@media (min-width: 992px) {
+  .function .function-list .puce .fa-solid, .function .function-list .puce .fa-sharp {
+    margin-right: 15px;
+  }
 }
 .function .function-list .puce .num {
   font-size: 0.9em;

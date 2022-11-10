@@ -53,7 +53,7 @@
     }
     
     .function-list{
-        @include typo-text;
+        @include typo-text-bold;
         list-style: none;
         display: flex;
         flex-direction: column;
@@ -76,7 +76,7 @@
             background-color: #F0F0F0;
             border-radius: 20px;
             margin-bottom: 8%;
-            padding: 15px;
+            padding: 13px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             transition: 250ms;
             &:hover{
@@ -90,7 +90,10 @@
             }
             .fa-solid, .fa-sharp{
                 @include typo-imp-text;
-                margin-right: 20px;
+                margin-right: 35px;
+                @media (min-width:992px) {
+                    margin-right: 15px;
+                }
             }
             .num{
                 @include typo-num-list;
