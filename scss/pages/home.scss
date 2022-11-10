@@ -44,9 +44,12 @@
 
 
 .function{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
     .function-title{
         @include typo-title;
-        padding-left: 1.9vh;
+        padding-left: 5%;
     }
     
     .function-list{
@@ -58,6 +61,13 @@
         z-index: 0;
         padding-left: 0;
         margin-top: 5%;
+        @media (min-width: 992px) {
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            padding-left: 2%;
+            margin-top: 1%;
+        }
     
         .puce{
             width: 80%;
@@ -68,6 +78,9 @@
             margin-bottom: 8%;
             padding: 15px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            @media (min-width: 992px){
+                width: 25%;
+            }
             .fa-solid, .fa-sharp{
                 @include typo-imp-text;
                 margin-right: 20px;

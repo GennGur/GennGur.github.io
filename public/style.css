@@ -97,10 +97,15 @@ html {
   margin-bottom: 30px;
 }
 
+.function {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+}
 .function .function-title {
   font-size: 1.8em;
   font-weight: bold;
-  padding-left: 1.9vh;
+  padding-left: 5%;
 }
 .function .function-list {
   font-size: 1em;
@@ -112,6 +117,15 @@ html {
   padding-left: 0;
   margin-top: 5%;
 }
+@media (min-width: 992px) {
+  .function .function-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2%;
+    margin-top: 1%;
+  }
+}
 .function .function-list .puce {
   width: 80%;
   display: flex;
@@ -121,6 +135,11 @@ html {
   margin-bottom: 8%;
   padding: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media (min-width: 992px) {
+  .function .function-list .puce {
+    width: 25%;
+  }
 }
 .function .function-list .puce .fa-solid, .function .function-list .puce .fa-sharp {
   font-size: 1.3em;
