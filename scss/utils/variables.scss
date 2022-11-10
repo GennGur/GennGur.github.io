@@ -6,4 +6,5 @@ $secondary-color: #ff79DA;
 $tertiary-color: #99E2D0;
 
 $primary-color-light: lighten($primary-color,5%);
-$secondary-color-light: lighten($secondary-color,5%)
+$secondary-color-light: lighten($secondary-color,5%);
+$primary-color-extralight: lighten($primary-color,35%);

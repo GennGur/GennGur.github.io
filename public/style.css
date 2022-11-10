@@ -8,6 +8,7 @@ html {
   max-width: 1200px;
   min-width: 360px;
   margin: auto;
+  cursor: default;
 }
 
 .btn {
@@ -135,6 +136,13 @@ html {
   margin-bottom: 8%;
   padding: 15px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 250ms;
+}
+.function .function-list .puce:hover {
+  background-color: #f2eafb;
+}
+.function .function-list .puce:hover .fa-sharp, .function .function-list .puce:hover .fa-solid {
+  color: #9356DC;
 }
 @media (min-width: 992px) {
   .function .function-list .puce {
