@@ -1,5 +1,5 @@
 @mixin typo-title {
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: bold;
 }
 @mixin typo-text {
@@ -18,5 +18,9 @@
 }
 @mixin typo-btn {
     font-size: 1.1em;
+    color: #FFFFFF;
+}
+@mixin typo-num-list{
+    font-size: 0.9em;
     color: #FFFFFF;
 }

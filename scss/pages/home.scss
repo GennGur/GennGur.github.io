@@ -28,7 +28,7 @@
     padding-bottom: 10%;
     .nav-title{
         @include typo-title;
-        width: 70%;
+        width: 65%;
         align-self: center;
         margin-bottom: 1%;
     }
@@ -39,5 +39,48 @@
         margin-top: 2%;
         margin-bottom: 30px;
 
+    }
+}
+
+
+.function{
+    .function-title{
+        @include typo-title;
+        padding-left: 1.9vh;
+    }
+    
+    .function-list{
+        @include typo-text;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 0;
+        padding-left: 0;
+        margin-top: 5%;
+    
+        .puce{
+            width: 80%;
+            display: flex;
+            align-items: baseline;
+            background-color: #F0F0F0;
+            border-radius: 20px;
+            margin-bottom: 8%;
+            padding: 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            .fa-solid, .fa-sharp{
+                @include typo-imp-text;
+                margin-right: 20px;
+            }
+            .num{
+                @include typo-num-list;
+                margin-right: 30px;
+                margin-left: -27px;
+                background-color: $primary-color;
+                padding: 4px 9px;
+                border-radius: 50%;
+            }
+            
+        }
     }
 }

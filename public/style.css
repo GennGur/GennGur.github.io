@@ -12,8 +12,7 @@ html {
 
 .btn {
   justify-content: center;
-  width: 70%;
-  max-width: 30vh;
+  width: 65%;
   align-self: center;
   display: flex;
 }
@@ -83,9 +82,9 @@ html {
   padding-bottom: 10%;
 }
 .nav .nav-title {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
-  width: 70%;
+  width: 65%;
   align-self: center;
   margin-bottom: 1%;
 }
@@ -96,6 +95,46 @@ html {
   align-self: center;
   margin-top: 2%;
   margin-bottom: 30px;
+}
+
+.function .function-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-left: 1.9vh;
+}
+.function .function-list {
+  font-size: 1em;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 0;
+  padding-left: 0;
+  margin-top: 5%;
+}
+.function .function-list .puce {
+  width: 80%;
+  display: flex;
+  align-items: baseline;
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  margin-bottom: 8%;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.function .function-list .puce .fa-solid, .function .function-list .puce .fa-sharp {
+  font-size: 1.3em;
+  color: #6f6f6f;
+  margin-right: 20px;
+}
+.function .function-list .puce .num {
+  font-size: 0.9em;
+  color: #FFFFFF;
+  margin-right: 30px;
+  margin-left: -27px;
+  background-color: #9356DC;
+  padding: 4px 9px;
+  border-radius: 50%;
 }
 
 header {
