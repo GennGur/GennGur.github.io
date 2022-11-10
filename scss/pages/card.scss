@@ -1,0 +1,9 @@
+.restaurant-title{
+    @include typo-title;
+    padding-left: 5%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}

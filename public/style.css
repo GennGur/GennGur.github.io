@@ -90,7 +90,7 @@ html {
   margin-bottom: 1%;
 }
 .nav .nav-p {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #6f6f6f;
   width: 75%;
   align-self: center;
@@ -151,7 +151,7 @@ html {
   }
 }
 .function .function-list .puce .fa-solid, .function .function-list .puce .fa-sharp {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #6f6f6f;
   margin-right: 35px;
 }
@@ -168,6 +168,17 @@ html {
   background-color: #9356DC;
   padding: 4px 9px;
   border-radius: 50%;
+}
+
+.restaurant-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
