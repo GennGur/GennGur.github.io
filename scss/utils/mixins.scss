@@ -30,3 +30,11 @@
 @mixin box-shadow {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+@mixin linearGradient-botttom-left{
+    background: linear-gradient(to bottom left, $secondary-color-light,$primary-color-light);
+}
+
+@mixin linearGradient-bottom-right {
+    background: linear-gradient(to bottom right, $secondary-color, $primary-color);
+}
