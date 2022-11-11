@@ -6,6 +6,7 @@ footer{
     .footer-title{
         @include typo-title-footer;
         margin-left: 5%;
+        font-weight: 500;
         @media (min-width: 992px){
             text-align: center;
         }

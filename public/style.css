@@ -211,7 +211,7 @@ html {
 }
 .restaurant .card .card-lien {
   width: 90%;
-  height: 34vh;
+  height: 38vh;
   border-radius: 20px;
   text-decoration: none;
   background-color: #ffffff;
@@ -300,6 +300,7 @@ footer .footer-title {
   color: #fdfdfd;
   font-size: 1.3em;
   margin-left: 5%;
+  font-weight: 500;
 }
 @media (min-width: 992px) {
   footer .footer-title {
