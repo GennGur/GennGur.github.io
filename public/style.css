@@ -290,4 +290,55 @@ header h1 {
   margin: 0;
 }
 
+footer {
+  background-color: #454545;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-title {
+  font-family: "shrikhand", serif;
+  color: #fdfdfd;
+  font-size: 1.3em;
+  margin-left: 5%;
+}
+@media (min-width: 992px) {
+  footer .footer-title {
+    text-align: center;
+  }
+}
+footer .footer-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 5%;
+}
+@media (min-width: 992px) {
+  footer .footer-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 5%;
+  }
+}
+footer .footer-list .footer-lien {
+  display: flex;
+  text-decoration: none;
+  font-size: 0.9em;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+@media (min-width: 992px) {
+  footer .footer-list .footer-lien {
+    width: 100%;
+  }
+}
+footer .footer-list .footer-lien .text-footer-list {
+  margin: 0;
+}
+footer .footer-list .footer-lien .fa-solid.fa-utensils {
+  margin-right: 10px;
+}
+footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
+  margin-right: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */

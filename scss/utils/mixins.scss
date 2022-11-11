@@ -2,6 +2,11 @@
     font-size: 1.8em;
     font-weight: bold;
 }
+@mixin typo-title-footer {
+    font-family: $font-logo;
+    color: #fdfdfd;
+    font-size: 1.3em;
+}
 @mixin typo-text {
     font-size: 1em;
     color: black;
