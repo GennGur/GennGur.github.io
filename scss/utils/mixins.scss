@@ -4,10 +4,12 @@
 }
 @mixin typo-text {
     font-size: 1em;
+    color: black;
 }
 @mixin typo-text-bold {
     font-size: 1.1em;
     font-weight: bold;
+    color: black;
 }
 @mixin typo-icon {
     font-size: 1.1em;
@@ -23,4 +25,8 @@
 @mixin typo-num-list{
     font-size: 0.9em;
     color: #FFFFFF;
+}
+
+@mixin box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

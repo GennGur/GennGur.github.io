@@ -1,9 +1,52 @@
-.restaurant-title{
-    @include typo-title;
-    padding-left: 5%;
-}
+.restaurant {
+    background-color: #f0f0f0;
+    padding-top: 30px;
+    margin-top: 30px;
+    
+    .restaurant-title{
+        @include typo-title;
+        padding-left: 5%;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .card-lien{
+            width: 90%;
+            height: 35vh;
+            border-radius: 20px;
+            text-decoration: none;
+            background-color: #ffffff;
+            @include box-shadow;
+    
+            .card-img{
+                width: 100%;
+                height: 27vh;
+                object-fit:cover;
+                border-radius: 20px 20px 0px 0px;
+            }
 
-.card{
-    display: flex;
-    flex-direction: column;
+            .card-container{
+                padding-left: 15px;
+                
+                .card-text{
+                    @include typo-text;
+                    margin-top: 8px
+
+                }
+
+                .card-title {
+                    @include typo-text-bold;
+                    margin-top: 11px;
+                    margin-bottom: 0;
+                }
+                
+                .btn__like{
+
+                }
+            }
+        }
+    }
 }

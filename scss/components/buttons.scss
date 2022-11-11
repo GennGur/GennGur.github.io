@@ -6,7 +6,7 @@
     
     .btn-nav{
         background: linear-gradient(to bottom right, $secondary-color, $primary-color);
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        @include box-shadow;
         z-index: 1;
         border: none;
         padding: 1.9vh 2.5vh;

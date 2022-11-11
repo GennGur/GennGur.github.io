@@ -70,6 +70,7 @@
         }
     
         .puce{
+            @include box-shadow;
             width: 80%;
             display: flex;
             align-items: baseline;
@@ -77,7 +78,6 @@
             border-radius: 20px;
             margin-bottom: 8%;
             padding: 13px;
-            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             transition: 250ms;
             &:hover{
                 background-color: $primary-color-extralight;
