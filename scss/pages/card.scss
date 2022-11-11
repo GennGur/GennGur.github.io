@@ -13,6 +13,14 @@
         flex-direction: column;
         align-items: center;
         
+        @media (min-width:992px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 4vh;
+
+        }
+        
         .card-lien{
             width: 90%;
             height: 34vh;
@@ -21,6 +29,10 @@
             background-color: #ffffff;
             @include box-shadow;
             margin-bottom: 20px;
+            @media(min-width:992px){
+                width: 45%;
+            }
+
     
             .card-img{
                 width: 100%;
