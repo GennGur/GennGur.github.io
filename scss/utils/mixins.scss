@@ -16,6 +16,10 @@
     font-weight: bold;
     color: black;
 }
+@mixin typo-icon-bold {
+    font-size: 1.3em;
+    color: black;
+}
 @mixin typo-icon {
     font-size: 1.1em;
 }

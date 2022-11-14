@@ -4,6 +4,14 @@ header{
     display: flex;
     align-items: center;
     padding-bottom: 1%;
+    
+    .return-home{
+        @include typo-icon-bold;
+        position: fixed;
+        margin-right: 0;
+        margin-left: 25px;
+    }
+    
     h1{
         font-family: $font-logo;
         display: block;
