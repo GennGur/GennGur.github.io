@@ -55,8 +55,9 @@ body{
                 margin-left: -27px;
                 font-size: 1.7em;
                 background: -webkit-linear-gradient($primary-color, $secondary-color);
+                background-clip: text;
                 -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                color: transparent;
             }
         }
     }

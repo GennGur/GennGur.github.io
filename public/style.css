@@ -42,7 +42,7 @@ html {
 
 .btn {
   justify-content: center;
-  width: 65%;
+  width: 70%;
   align-self: center;
   display: flex;
 }
@@ -239,7 +239,7 @@ html {
   font-size: 1em;
   color: black;
   border-radius: 5%;
-  margin-left: 65%;
+  margin-left: 60%;
   margin-top: 20px;
   color: #217460;
   font-weight: bold;
@@ -312,8 +312,9 @@ html {
   margin-left: -27px;
   font-size: 1.7em;
   background: -webkit-linear-gradient(#9356DC, #ff79DA);
+  background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 header {
@@ -444,8 +445,9 @@ body .menu__head .btn__like .fas {
   margin-left: -27px;
   font-size: 1.7em;
   background: -webkit-linear-gradient(#9356DC, #ff79DA);
+  background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

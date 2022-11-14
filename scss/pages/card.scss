@@ -33,7 +33,7 @@
                 padding: 5px 13px;
                 @include typo-text;
                 border-radius: 5%;
-                margin-left: 65%;
+                margin-left: 60%;
                 margin-top: 20px;
                 color: $tertiary-color-dark;
                 font-weight: bold;
@@ -110,8 +110,9 @@
                         margin-left: -27px;
                         font-size: 1.7em;
                         background: -webkit-linear-gradient($primary-color, $secondary-color);
+                        background-clip: text;
                         -webkit-background-clip: text;
-                        -webkit-text-fill-color: transparent;
+                        color: transparent;
                     }
                 }
             }
