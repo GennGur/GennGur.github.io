@@ -457,6 +457,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
 .core .menus {
   background-color: #f0f0f0;
   margin-top: 0;
+  padding-bottom: 15px;
 }
 .core .menus .menucore .menucore__title {
   margin: 0;
@@ -486,6 +487,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 87%;
   margin: auto;
+  margin-bottom: 5%;
   padding: 14px;
   cursor: pointer;
 }
@@ -523,23 +525,27 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   font-weight: 200;
 }
 .core .menus .menucore .menuitem .menuitem__head {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
   display: block;
   flex: 1;
+  overflow: hidden;
 }
 .core .menus .menucore .menuitem .menuitem__head .menuitem__title {
   font-size: 1.1em;
   font-weight: bold;
   color: black;
   margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .core .menus .menucore .menuitem .menuitem__head .menuitem__info {
   font-size: 1em;
   color: black;
   font-weight: normal;
   margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .core .menus .menucore .menuitem .menuitem__price {
   font-size: 1.1em;

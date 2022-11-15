@@ -66,6 +66,7 @@
     .menus{
         background-color: #f0f0f0;
         margin-top: 0;
+        padding-bottom: 15px;
   
         .menucore{
 
@@ -96,6 +97,7 @@
                 @include box-shadow;
                 width: 87%;
                 margin: auto;
+                margin-bottom: 5%;
                 padding: 14px;
                 cursor: pointer;
                 
@@ -141,20 +143,24 @@
                 }
 
                 .menuitem__head{
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
                     display: block;
                     flex: 1;
+                    overflow: hidden;
 
                     .menuitem__title{
                         @include typo-text-bold;
                         margin: 0;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
                     }
     
                     .menuitem__info{
                         @include typo-text;
                         margin: 0;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
                     }
                 }
 
