@@ -466,7 +466,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   font-size: 1em;
   color: black;
   font-weight: normal;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding-top: 25px;
 }
 .core .menus .menucore .menucore__title::after {
@@ -484,27 +484,41 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 90%;
+  width: 87%;
   margin: auto;
-  padding: 16px;
+  padding: 14px;
 }
-.core .menus .menucore .menuitem .menuitem__title {
+.core .menus .menucore .menuitem .menuitem__head {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+}
+.core .menus .menucore .menuitem .menuitem__head .menuitem__title {
   font-size: 1.1em;
   font-weight: bold;
   color: black;
   margin: 0;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
-.core .menus .menucore .menuitem .menuitem__info {
+.core .menus .menucore .menuitem .menuitem__head .menuitem__info {
   font-size: 1em;
   color: black;
   font-weight: normal;
   margin: 0;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
+}
+.core .menus .menucore .menuitem .menuitem__price {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: black;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+.core .menus .menucore .menuitem .menuitem__anim {
+  background-color: #99E2D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

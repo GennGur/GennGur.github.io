@@ -75,7 +75,7 @@
                 position: relative;
                 padding-bottom: 7px;
                 @include typo-text;
-                margin-bottom: 30px;
+                margin-bottom: 15px;
                 padding-top: 25px;
                 &::after{
                     content:"";
@@ -94,25 +94,40 @@
                 border-radius: 20px;
                 overflow: hidden;
                 @include box-shadow;
-                width: 90%;
+                width: 87%;
                 margin: auto;
-                padding: 16px;
+                padding: 14px;
 
-                .menuitem__title{
-                    @include typo-text-bold;
-                    margin: 0;
+                .menuitem__head{
                     white-space: nowrap;
                     text-overflow: ellipsis;
                     overflow: hidden;
+                    display: block;
+
+                    .menuitem__title{
+                        @include typo-text-bold;
+                        margin: 0;
+                    }
+    
+                    .menuitem__info{
+                        @include typo-text;
+                        margin: 0;
+                    }
                 }
 
-                .menuitem__info{
-                    @include typo-text;
-                    margin: 0;
-                    white-space: nowrap;
-                    text-overflow: ellipsis;
-                    overflow: hidden;
+                .menuitem__price{
+                    @include typo-text-bold;
+                    align-self: flex-end;
+                    margin-right: 10px;
+                }
 
+                .menuitem__anim{
+                    background-color: $tertiary-color;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 3rem;
+                    
                 }
             }
         }
