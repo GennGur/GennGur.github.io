@@ -66,7 +66,7 @@
     .menus{
         background-color: #f0f0f0;
         margin-top: 0;
-        
+  
         .menucore{
 
             .menucore__title{
@@ -97,6 +97,42 @@
                 width: 87%;
                 margin: auto;
                 padding: 14px;
+                cursor: pointer;
+                
+
+                &:hover{
+                    
+                    .menuitem__anim{
+                        background-color: $tertiary-color;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 4rem;
+                        transition-duration: .5s;
+                        margin-top: -15px;
+                        margin-right: -14px;
+                        margin-bottom: -17px;
+                        margin-left: 15px;
+                        
+                        .menuitem__check{
+                            background-color: #ffff;
+                            border-radius: 50px;
+                            width: 1.7rem;
+                            height: 1.7rem;
+                            align-items: center;
+                            justify-content: center;
+                           
+                            .fa-solid{
+                                color: $tertiary-color;
+                                font-size: 1.8em;
+                                font-weight: 200;
+                           }
+                        }
+                        
+                    }
+
+                    
+                }
 
                 .menuitem__head{
                     white-space: nowrap;
@@ -123,28 +159,7 @@
                 }
 
                 .menuitem__anim{
-                    background-color: $tertiary-color;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 3rem;
-                    transition-duration: .5s;
-                    
-                    .menuitem__check{
-                        background-color: #ffff;
-                        border-radius: 50px;
-                        width: 1.7rem;
-                        height: 1.7rem;
-                        align-items: center;
-                        justify-content: center;
-                       
-                        .fa-solid{
-                            color: $tertiary-color;
-                            font-size: 1.8em;
-                            font-weight: 200;
-                       }
-                    }
-                    
+                    display: none;
                 }
             }
         }

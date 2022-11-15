@@ -487,6 +487,32 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   width: 87%;
   margin: auto;
   padding: 14px;
+  cursor: pointer;
+}
+.core .menus .menucore .menuitem:hover .menuitem__anim {
+  background-color: #99E2D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  transition-duration: 0.5s;
+  margin-top: -15px;
+  margin-right: -14px;
+  margin-bottom: -17px;
+  margin-left: 15px;
+}
+.core .menus .menucore .menuitem:hover .menuitem__anim .menuitem__check {
+  background-color: white;
+  border-radius: 50px;
+  width: 1.7rem;
+  height: 1.7rem;
+  align-items: center;
+  justify-content: center;
+}
+.core .menus .menucore .menuitem:hover .menuitem__anim .menuitem__check .fa-solid {
+  color: #99E2D0;
+  font-size: 1.8em;
+  font-weight: 200;
 }
 .core .menus .menucore .menuitem .menuitem__head {
   white-space: nowrap;
@@ -515,25 +541,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   margin-right: 10px;
 }
 .core .menus .menucore .menuitem .menuitem__anim {
-  background-color: #99E2D0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 3rem;
-  transition-duration: 0.5s;
-}
-.core .menus .menucore .menuitem .menuitem__anim .menuitem__check {
-  background-color: white;
-  border-radius: 50px;
-  width: 1.7rem;
-  height: 1.7rem;
-  align-items: center;
-  justify-content: center;
-}
-.core .menus .menucore .menuitem .menuitem__anim .menuitem__check .fa-solid {
-  color: #99E2D0;
-  font-size: 1.8em;
-  font-weight: 200;
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
