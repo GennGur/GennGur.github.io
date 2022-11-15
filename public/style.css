@@ -492,13 +492,16 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
 .core .menus .menucore .menuitem:hover .menuitem__anim {
   margin-right: -14px;
 }
+.core .menus .menucore .menuitem:hover .menuitem__anim .menuitem__check {
+  transform: rotate(0);
+}
 .core .menus .menucore .menuitem .menuitem__anim {
   background-color: #99E2D0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 4rem;
-  transition-duration: 0.5s;
+  transition-duration: 350ms;
   margin-top: -15px;
   margin-right: -80px;
   margin-bottom: -17px;
@@ -506,15 +509,17 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
 }
 .core .menus .menucore .menuitem .menuitem__anim .menuitem__check {
   background-color: white;
-  border-radius: 50px;
+  border-radius: 100px;
   width: 1.7rem;
   height: 1.7rem;
   align-items: center;
   justify-content: center;
+  transform: rotate(-180deg);
+  transition-duration: 350ms;
 }
 .core .menus .menucore .menuitem .menuitem__anim .menuitem__check .fa-solid {
   color: #99E2D0;
-  font-size: 1.8em;
+  font-size: 1.85em;
   font-weight: 200;
 }
 .core .menus .menucore .menuitem .menuitem__head {

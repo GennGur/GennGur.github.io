@@ -103,6 +103,9 @@
                 &:hover{
                     .menuitem__anim{
                         margin-right: -14px;
+                        .menuitem__check{
+                            transform: rotate(0);
+                        }
                     }
                 }
                 
@@ -112,7 +115,7 @@
                     justify-content: center;
                     align-items: center;
                     width: 4rem;
-                    transition-duration: .5s;
+                    transition-duration: 350ms;
                     margin-top: -15px;
                     margin-right: -80px;
                     margin-bottom: -17px;
@@ -120,15 +123,17 @@
                     
                     .menuitem__check{
                         background-color: #ffff;
-                        border-radius: 50px;
+                        border-radius: 100px;
                         width: 1.7rem;
                         height: 1.7rem;
                         align-items: center;
                         justify-content: center;
+                        transform: rotate(-180deg);
+                        transition-duration: 350ms;
                        
                         .fa-solid{
                             color: $tertiary-color;
-                            font-size: 1.8em;
+                            font-size: 1.85em;
                             font-weight: 200;
                        }
                     }
