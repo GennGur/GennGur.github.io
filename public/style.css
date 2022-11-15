@@ -169,6 +169,7 @@ html {
   margin-bottom: 8%;
   padding: 13px;
   transition: 250ms;
+  white-space: nowrap;
 }
 .function .function-list .puce:hover {
   background-color: #f2eafb;
@@ -232,15 +233,16 @@ html {
 }
 .restaurant .card .card-news::before {
   content: "Nouveau";
-  display: flex;
   background-color: #99E2D0;
   position: absolute;
   padding: 5px 13px;
   font-size: 1em;
   color: black;
+  font-weight: normal;
   border-radius: 5%;
-  margin-left: 60%;
-  margin-top: 20px;
+  right: 3.5rem;
+  margin-top: 15px;
+  margin-right: 10px;
   color: #217460;
   font-weight: bold;
   justify-content: center;
@@ -248,7 +250,8 @@ html {
 }
 @media (min-width: 992px) {
   .restaurant .card .card-news::before {
-    margin-left: 345px;
+    right: auto;
+    margin-left: 15px;
   }
 }
 .restaurant .card .card-lien {
@@ -279,6 +282,7 @@ html {
 .restaurant .card .card-lien .card-container .card-info .card-text {
   font-size: 1em;
   color: black;
+  font-weight: normal;
   margin-top: 8px;
 }
 .restaurant .card .card-lien .card-container .card-info .card-title {
@@ -414,6 +418,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   padding: 0.5rem 1rem 0 1rem;
   position: relative;
   z-index: 1;
+  margin-bottom: 0;
 }
 .core .menu__head .menu__title {
   font-size: 1.6em;
@@ -448,6 +453,58 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+.core .menus {
+  background-color: #f0f0f0;
+  margin-top: 0;
+}
+.core .menus .menucore .menucore__title {
+  margin: 0;
+  margin-left: 16px;
+  position: relative;
+  padding-bottom: 7px;
+  font-size: 1em;
+  color: black;
+  font-weight: normal;
+  margin-bottom: 30px;
+  padding-top: 25px;
+}
+.core .menus .menucore .menucore__title::after {
+  content: "";
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #99E2D0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.core .menus .menucore .menuitem {
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 90%;
+  margin: auto;
+  padding: 16px;
+}
+.core .menus .menucore .menuitem .menuitem__title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.core .menus .menucore .menuitem .menuitem__info {
+  font-size: 1em;
+  color: black;
+  font-weight: normal;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

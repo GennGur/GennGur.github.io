@@ -16,6 +16,7 @@
 @mixin typo-text {
     font-size: 1em;
     color: black;
+    font-weight: normal;
 }
 @mixin typo-text-bold {
     font-size: 1.1em;

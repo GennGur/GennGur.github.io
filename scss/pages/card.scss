@@ -27,20 +27,21 @@
         .card-news{
             &::before{
                 content: "Nouveau";
-                display: flex;
                 background-color: $tertiary-color;
                 position: absolute;
                 padding: 5px 13px;
                 @include typo-text;
                 border-radius: 5%;
-                margin-left: 60%;
-                margin-top: 20px;
+                right: 3.5rem;
+                margin-top: 15px;
+                margin-right: 10px;
                 color: $tertiary-color-dark;
                 font-weight: bold;
                 justify-content: center;
                 animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
                 @media (min-width:992px){
-                    margin-left: 345px;
+                    right: auto;
+                    margin-left: 15px;
                 }
             }
         }

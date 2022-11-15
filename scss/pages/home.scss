@@ -80,6 +80,7 @@
             margin-bottom: 8%;
             padding: 13px;
             transition: 250ms;
+            white-space: nowrap;
             &:hover{
                 background-color: $primary-color-extralight;
                 .fa-sharp,.fa-solid{
