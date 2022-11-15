@@ -490,6 +490,9 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   cursor: pointer;
 }
 .core .menus .menucore .menuitem:hover .menuitem__anim {
+  margin-right: -14px;
+}
+.core .menus .menucore .menuitem .menuitem__anim {
   background-color: #99E2D0;
   display: flex;
   justify-content: center;
@@ -497,11 +500,11 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   width: 4rem;
   transition-duration: 0.5s;
   margin-top: -15px;
-  margin-right: -14px;
+  margin-right: -80px;
   margin-bottom: -17px;
   margin-left: 15px;
 }
-.core .menus .menucore .menuitem:hover .menuitem__anim .menuitem__check {
+.core .menus .menucore .menuitem .menuitem__anim .menuitem__check {
   background-color: white;
   border-radius: 50px;
   width: 1.7rem;
@@ -509,7 +512,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   align-items: center;
   justify-content: center;
 }
-.core .menus .menucore .menuitem:hover .menuitem__anim .menuitem__check .fa-solid {
+.core .menus .menucore .menuitem .menuitem__anim .menuitem__check .fa-solid {
   color: #99E2D0;
   font-size: 1.8em;
   font-weight: 200;
@@ -539,9 +542,6 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   color: black;
   align-self: flex-end;
   margin-right: 10px;
-}
-.core .menus .menucore .menuitem .menuitem__anim {
-  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
