@@ -493,6 +493,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   text-overflow: ellipsis;
   overflow: hidden;
   display: block;
+  flex: 1;
 }
 .core .menus .menucore .menuitem .menuitem__head .menuitem__title {
   font-size: 1.1em;
@@ -519,6 +520,20 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   justify-content: center;
   align-items: center;
   width: 3rem;
+  transition-duration: 0.5s;
+}
+.core .menus .menucore .menuitem .menuitem__anim .menuitem__check {
+  background-color: white;
+  border-radius: 50px;
+  width: 1.7rem;
+  height: 1.7rem;
+  align-items: center;
+  justify-content: center;
+}
+.core .menus .menucore .menuitem .menuitem__anim .menuitem__check .fa-solid {
+  color: #99E2D0;
+  font-size: 1.8em;
+  font-weight: 200;
 }
 
 /*# sourceMappingURL=style.css.map */
