@@ -1,19 +1,23 @@
 .btn{
     justify-content: center;
-    width: 70%;
+    width: 90%;
     align-self: center;
     display: flex;
+    margin: auto;
     
-    .btn-nav{
+    .btn-nav, .btn__menu{
         @include linearGradient-bottom-right;
         @include box-shadow;
         z-index: 1;
         border: none;
-        padding: 1.9vh 2.5vh;
+        padding: 1.9vh 7vh;
         border-radius: 50px;
         @include typo-btn;
         cursor: pointer;
         position: relative;
+        @media (max-width:395px){
+            padding: 1.9vh 5vh;
+        }
 
         &:hover{
             border-radius: 50px;

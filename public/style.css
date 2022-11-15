@@ -35,36 +35,42 @@ body {
 
 html {
   max-width: 1200px;
-  min-width: 360px;
+  min-width: 345px;
   margin: auto;
   cursor: default;
 }
 
 .btn {
   justify-content: center;
-  width: 70%;
+  width: 90%;
   align-self: center;
   display: flex;
+  margin: auto;
 }
-.btn .btn-nav {
+.btn .btn-nav, .btn .btn__menu {
   background: linear-gradient(to bottom right, #ff79DA, #9356DC);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 1;
   border: none;
-  padding: 1.9vh 2.5vh;
+  padding: 1.9vh 7vh;
   border-radius: 50px;
   font-size: 1.1em;
   color: #FFFFFF;
   cursor: pointer;
   position: relative;
 }
-.btn .btn-nav:hover {
+@media (max-width: 395px) {
+  .btn .btn-nav, .btn .btn__menu {
+    padding: 1.9vh 5vh;
+  }
+}
+.btn .btn-nav:hover, .btn .btn__menu:hover {
   border-radius: 50px;
 }
-.btn .btn-nav:hover::after {
+.btn .btn-nav:hover::after, .btn .btn__menu:hover::after {
   opacity: 1;
 }
-.btn .btn-nav::after {
+.btn .btn-nav::after, .btn .btn__menu::after {
   content: "";
   position: absolute;
   top: 0;
@@ -335,6 +341,7 @@ header .return-home {
   position: fixed;
   margin-right: 0;
   margin-left: 25px;
+  z-index: 3;
 }
 header h1 {
   font-family: "shrikhand", serif;
@@ -407,6 +414,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   object-fit: cover;
   max-width: 100%;
   max-height: 14rem;
+  min-height: 220px;
   width: 100%;
 }
 .core .menu__head {
@@ -457,7 +465,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
 .core .menus {
   background-color: #f0f0f0;
   margin-top: 0;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 .core .menus .menucore .menucore__title {
   margin: 0;
@@ -468,7 +476,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   color: black;
   font-weight: normal;
   margin-bottom: 15px;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .core .menus .menucore .menucore__title::after {
   content: "";
@@ -553,6 +561,9 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   color: black;
   align-self: flex-end;
   margin-right: 10px;
+}
+.core .menus__end {
+  padding-bottom: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
