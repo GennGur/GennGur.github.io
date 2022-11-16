@@ -599,8 +599,6 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
 .core .menus .menucore .menuitem .menuitem__anim .menuitem__check {
   background-color: white;
   border-radius: 120px;
-  width: 1.85rem;
-  height: 1.7rem;
   align-items: center;
   justify-content: center;
   transform: rotate(-180deg);
@@ -608,7 +606,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
 }
 .core .menus .menucore .menuitem .menuitem__anim .menuitem__check .fa-solid {
   color: #99E2D0;
-  font-size: 1.85em;
+  font-size: 2em;
   font-weight: 195;
 }
 .core .menus .menucore .menuitem .menuitem__head {

@@ -128,8 +128,6 @@
                     .menuitem__check{
                         background-color: #ffff;
                         border-radius: 120px;
-                        width: 1.85rem;
-                        height: 1.7rem;
                         align-items: center;
                         justify-content: center;
                         transform: rotate(-180deg);
@@ -137,7 +135,7 @@
                        
                         .fa-solid{
                             color: $tertiary-color;
-                            font-size: 1.85em;
+                            font-size: 2em;
                             font-weight: 195;
                        }
                     }
