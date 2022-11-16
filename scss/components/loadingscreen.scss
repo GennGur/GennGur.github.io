@@ -1,0 +1,41 @@
+.load{
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 15;
+    animation: loading-opacity 400ms ease-in 1.50s both;
+    .load__div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        .load__title{
+            font-family:$font-logo;
+            color: white;
+            font-size: 3em;
+            font-weight: normal;
+            @include linearGradient-bottom-right;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbow-animation 85s linear infinite, shake 1.5s cubic-bezier(1,-0.43, 0, 1.96) both infinite;
+            
+            &::after{
+                content: "#";
+                width: 7rem;
+                height: 0.45rem;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                margin: 0;
+                @include linearGradient-botttom-left;
+                animation: bar-animation 1s linear alternate both infinite, rainbow-animation 85s linear infinite ;
+
+            }
+            
+            
+        }
+    }
+}

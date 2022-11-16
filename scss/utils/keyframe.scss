@@ -43,3 +43,37 @@
     transform: scale(1);
   }
 }
+
+@keyframes rainbow-animation {
+  to {
+      background-position: 4500vh;
+  }
+}
+
+@keyframes bar-animation{
+  0%{
+      margin-right: 0;
+  }
+  100%{
+      margin-left: 55%;
+  }
+}
+
+@keyframes loading-opacity {
+  0%{
+    opacity: 1;
+  }
+  75%{
+    opacity: .85;
+  }
+  90%{
+    opacity: .55;
+  }
+  99%{
+    z-index: 15;
+  }
+  100% {
+    opacity: 0;
+    z-index: -40;
+  }
+}
