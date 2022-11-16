@@ -38,7 +38,7 @@
                 color: $tertiary-color-dark;
                 font-weight: bold;
                 justify-content: center;
-                animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+                animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) 1.75s both infinite;
                 @media (min-width:992px){
                     right: auto;
                     margin-left: 15px;

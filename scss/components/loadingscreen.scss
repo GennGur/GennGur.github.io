@@ -18,8 +18,9 @@
             font-size: 3em;
             font-weight: normal;
             @include linearGradient-bottom-right;
+            background-clip: text;
             -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: transparent;
             animation: rainbow-animation 85s linear infinite, shake 1.5s cubic-bezier(1,-0.43, 0, 1.96) both infinite;
             
             &::after{

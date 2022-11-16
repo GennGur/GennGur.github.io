@@ -101,8 +101,9 @@ html {
   font-size: 3em;
   font-weight: normal;
   background: linear-gradient(to bottom right, #ff79DA, #9356DC);
+  background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
   animation: rainbow-animation 85s linear infinite, shake 1.5s cubic-bezier(1, -0.43, 0, 1.96) both infinite;
 }
 .load .load__div .load__title::after {
@@ -329,7 +330,7 @@ html {
   color: #217460;
   font-weight: bold;
   justify-content: center;
-  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) 1.75s both infinite;
 }
 @media (min-width: 992px) {
   .restaurant .card .card-news::before {
