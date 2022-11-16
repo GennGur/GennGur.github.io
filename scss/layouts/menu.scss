@@ -132,7 +132,8 @@
                         justify-content: center;
                         transform: rotate(-180deg);
                         transition-duration: 350ms;
-                        width: 31.95px;
+                        padding: 0.01px;
+                        opacity: .8;
                        
                         .fa-solid{
                             color: $tertiary-color;
