@@ -603,6 +603,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   justify-content: center;
   transform: rotate(-180deg);
   transition-duration: 350ms;
+  width: 31.95px;
 }
 .core .menus .menucore .menuitem .menuitem__anim .menuitem__check .fa-solid {
   color: #99E2D0;
