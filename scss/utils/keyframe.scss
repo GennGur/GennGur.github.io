@@ -33,5 +33,13 @@
     40%, 60% {
       transform: translate3d(4px, 0, 0);
     }
-  }
+}
 
+@keyframes menuappear {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

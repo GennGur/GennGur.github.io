@@ -28,6 +28,14 @@
     transform: translate3d(4px, 0, 0);
   }
 }
+@keyframes menuappear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 body {
   font-family: "roboto", serif;
   box-sizing: border-box;
@@ -498,6 +506,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   margin-bottom: 5%;
   padding: 14px;
   cursor: pointer;
+  animation: menuappear 600ms ease-in-out both;
 }
 .core .menus .menucore .menuitem:hover .menuitem__anim {
   margin-right: -14px;
@@ -561,6 +570,36 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   color: black;
   align-self: flex-end;
   margin-right: 10px;
+}
+.core .menus .menucore .delay-0 {
+  animation-delay: 0s;
+}
+.core .menus .menucore .delay-1 {
+  animation-delay: 0.1s;
+}
+.core .menus .menucore .delay-2 {
+  animation-delay: 0.2s;
+}
+.core .menus .menucore .delay-3 {
+  animation-delay: 0.3s;
+}
+.core .menus .menucore .delay-4 {
+  animation-delay: 0.4s;
+}
+.core .menus .menucore .delay-5 {
+  animation-delay: 0.5s;
+}
+.core .menus .menucore .delay-6 {
+  animation-delay: 0.6s;
+}
+.core .menus .menucore .delay-7 {
+  animation-delay: 0.7s;
+}
+.core .menus .menucore .delay-8 {
+  animation-delay: 0.8s;
+}
+.core .menus .menucore .delay-9 {
+  animation-delay: 0.9s;
 }
 .core .menus__end {
   padding-bottom: 25px;
