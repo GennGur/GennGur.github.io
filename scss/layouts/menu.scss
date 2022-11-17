@@ -1,69 +1,68 @@
-.core{
-    .illu-head{
-        width: 100%;
-        height: 250px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px -2px 1px;
-        margin: 0 0 -4em 0;
+
+.illu-head{
+    width: 100%;
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px -2px 1px;
+    margin: 0 0 -4em 0;
         
-        .illu-head-img{
-            object-fit: cover;
-            max-width: 100%;
-            max-height: 14rem;
-            min-height: 220px;
-            width: 100%;
-        }
+    .illu-head-img{
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 14rem;
+        min-height: 220px;            
+        width: 100%;
+    }
+}
+
+.menu__head{
+    display: flex;
+    background-color: #f0f0f0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 35px 35px 0px 0px;
+    padding: 0.5rem 1rem 0 1rem;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 0;
+
+    .menu__title{
+        @include typo-menu-title;
+        font-family: $font-logo;
     }
 
-    .menu__head{
-        display: flex;
-        background-color: #f0f0f0;
-        align-items: center;
-        justify-content: space-between;
-        border-radius: 35px 35px 0px 0px;
-        padding: 0.5rem 1rem 0 1rem;
-        position: relative;
-        z-index: 1;
-        margin-bottom: 0;
+    .btn__like{
+        align-self: flex-end;
+        margin: auto;
+        margin-right: 25px;
+        &:hover{
 
-        .menu__title{
-            @include typo-menu-title;
-            font-family: $font-logo;
-        }
-
-        .btn__like{
-            align-self: flex-end;
-            margin: auto;
-            margin-right: 25px;
-            &:hover{
-
-                .far{
-                    opacity: 0;
-                    animation: opacity-clr 450ms ease-in-out reverse;
-                    
-                }
-                .fas{
-                    animation: opacity-clr 450ms ease-in-out;
-                    opacity: 1;
-                }
-            }
             .far{
-                color: black;
-                font-size: 1.7em;
-                margin:0;
-                margin-right: -4px;
+                opacity: 0;
+                animation: opacity-clr 450ms ease-in-out reverse;                
             }
             .fas{
-                opacity: 0;
-                margin-left: -27px;
-                font-size: 1.7em;
-                background: -webkit-linear-gradient($primary-color, $secondary-color);
-                background-clip: text;
-                -webkit-background-clip: text;
-                color: transparent;
+                animation: opacity-clr 450ms ease-in-out;
+                opacity: 1;
             }
         }
+        .far{
+            color: black;
+            font-size: 1.7em;
+            margin:0;
+            margin-right: -4px;
+        }
+        .fas{
+            opacity: 0;
+            margin-left: -27px;
+            font-size: 1.7em;
+            background: -webkit-linear-gradient($primary-color, $secondary-color);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
     }
-
+    }
+.core{
     .menus{
         background-color: #f0f0f0;
         margin-top: 0;
@@ -102,6 +101,9 @@
                 padding: 14px;
                 cursor: pointer;
                 animation: menuappear 600ms ease-in-out both;
+                @media (min-width:992px){
+                    margin-bottom: 2%;
+                }
                 
 
                 &:hover{

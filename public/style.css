@@ -483,20 +483,21 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   margin-right: 5px;
 }
 
-.core .illu-head {
+.illu-head {
   width: 100%;
   height: 250px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px -2px 1px;
   margin: 0 0 -4em 0;
 }
-.core .illu-head .illu-head-img {
+.illu-head .illu-head-img {
   object-fit: cover;
   max-width: 100%;
   max-height: 14rem;
   min-height: 220px;
   width: 100%;
 }
-.core .menu__head {
+
+.menu__head {
   display: flex;
   background-color: #f0f0f0;
   align-items: center;
@@ -507,32 +508,32 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   z-index: 1;
   margin-bottom: 0;
 }
-.core .menu__head .menu__title {
+.menu__head .menu__title {
   font-size: 1.6em;
   font-weight: normal;
   color: black;
   font-family: "shrikhand", serif;
 }
-.core .menu__head .btn__like {
+.menu__head .btn__like {
   align-self: flex-end;
   margin: auto;
   margin-right: 25px;
 }
-.core .menu__head .btn__like:hover .far {
+.menu__head .btn__like:hover .far {
   opacity: 0;
   animation: opacity-clr 450ms ease-in-out reverse;
 }
-.core .menu__head .btn__like:hover .fas {
+.menu__head .btn__like:hover .fas {
   animation: opacity-clr 450ms ease-in-out;
   opacity: 1;
 }
-.core .menu__head .btn__like .far {
+.menu__head .btn__like .far {
   color: black;
   font-size: 1.7em;
   margin: 0;
   margin-right: -4px;
 }
-.core .menu__head .btn__like .fas {
+.menu__head .btn__like .fas {
   opacity: 0;
   margin-left: -27px;
   font-size: 1.7em;
@@ -541,6 +542,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   -webkit-background-clip: text;
   color: transparent;
 }
+
 .core .menus {
   background-color: #f0f0f0;
   margin-top: 0;
@@ -578,6 +580,11 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   padding: 14px;
   cursor: pointer;
   animation: menuappear 600ms ease-in-out both;
+}
+@media (min-width: 992px) {
+  .core .menus .menucore .menuitem {
+    margin-bottom: 2%;
+  }
 }
 .core .menus .menucore .menuitem:hover .menuitem__anim {
   margin-right: -14px;
