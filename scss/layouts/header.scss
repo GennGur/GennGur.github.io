@@ -7,7 +7,7 @@ header{
     
     .return-home{
         @include typo-icon-bold;
-        position: fixed;
+        position: absolute;
         margin-right: 0;
         margin-left: 25px;
         z-index: 3;
