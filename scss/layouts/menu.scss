@@ -63,6 +63,14 @@
     }
     }
 .core{
+    background-color: #f0f0f0;
+
+    .box-btn{
+        display: flex;
+        margin: auto;
+        padding-bottom: 25px;
+    }
+
     .menus{
         background-color: #f0f0f0;
         margin-top: 0;
@@ -208,6 +216,6 @@
     }
 
     .menus__end{
-        padding-bottom: 25px;
+        padding-bottom: 0px;
     }
 }

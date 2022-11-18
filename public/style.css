@@ -543,6 +543,14 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   color: transparent;
 }
 
+.core {
+  background-color: #f0f0f0;
+}
+.core .box-btn {
+  display: flex;
+  margin: auto;
+  padding-bottom: 25px;
+}
 .core .menus {
   background-color: #f0f0f0;
   margin-top: 0;
@@ -678,7 +686,7 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   animation-delay: 0.9s;
 }
 .core .menus__end {
-  padding-bottom: 25px;
+  padding-bottom: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */
