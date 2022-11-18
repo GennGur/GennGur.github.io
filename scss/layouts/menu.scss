@@ -128,19 +128,18 @@
                     margin-left: 15px;
                     
                     .menuitem__check{
-                        background-color: #ffff;
                         border-radius: 120px;
                         align-items: center;
                         justify-content: center;
                         transform: rotate(-360deg);
                         transition-duration: 550ms;
                         padding: 0.01px;
-                        opacity: .8;
+                        
                        
                         .fa-solid{
                             color: $tertiary-color;
-                            font-size: 2em;
-                            font-weight: 195;
+                            font-size: 1.7em;
+                            color: #ffff;
                        }
                     }
                     

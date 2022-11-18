@@ -605,19 +605,17 @@ footer .footer-list .footer-lien .fa-solid.fa-handshake-angle {
   margin-left: 15px;
 }
 .core .menus .menucore .menuitem .menuitem__anim .menuitem__check {
-  background-color: white;
   border-radius: 120px;
   align-items: center;
   justify-content: center;
   transform: rotate(-360deg);
   transition-duration: 550ms;
   padding: 0.01px;
-  opacity: 0.8;
 }
 .core .menus .menucore .menuitem .menuitem__anim .menuitem__check .fa-solid {
   color: #99E2D0;
-  font-size: 2em;
-  font-weight: 195;
+  font-size: 1.7em;
+  color: white;
 }
 .core .menus .menucore .menuitem .menuitem__head {
   display: block;
